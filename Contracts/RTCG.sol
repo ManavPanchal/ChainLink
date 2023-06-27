@@ -5,7 +5,7 @@ import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
 import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
 import "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol";
 
-//Random Three Card Generator
+//Random Three Card Generator (Game: teen patti)
 
 
 contract VRFv2Consumer is VRFConsumerBaseV2, ConfirmedOwner {
